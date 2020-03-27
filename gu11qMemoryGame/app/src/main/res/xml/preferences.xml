@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/guess_list"
+        android:entryValues="@array/guess_list"
+        android:key="pref_number_of_choices"
+        android:title="Select the number of Unique Pictures"
+        android:summary="4,6,8,10 unique pictures can be selected"
+        android:persistent="true"
+        android:defaultValue="10"
+
+        />
+
+</PreferenceScreen>
